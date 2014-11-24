@@ -5,15 +5,21 @@
   
   <title>弈川</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
+  <meta name="description" content="Title: 《php之道》读后总结 php学习纲要Date: 2014-04-15 16:19:16
+《php之道》阅读地址：http://wulijun.github.io/php-the-right-way/#code_style_guide
+某天在搜藏夹里翻到这个地址，也想不起是什么时候搜藏起来的了。对于现在的我欠缺的基础很是有用，零零碎碎花了大概有3填时间把这篇文字看了个大概，的确当的起">
+<meta property="og:type" content="article">
 <meta property="og:title" content="弈川">
-<meta property="og:url" content="http://yoursite.com/">
+<meta property="og:url" content="http://yoursite.com/2014/11/24/phpzhidao/">
 <meta property="og:site_name" content="弈川">
-<meta property="og:description">
+<meta property="og:description" content="Title: 《php之道》读后总结 php学习纲要Date: 2014-04-15 16:19:16
+《php之道》阅读地址：http://wulijun.github.io/php-the-right-way/#code_style_guide
+某天在搜藏夹里翻到这个地址，也想不起是什么时候搜藏起来的了。对于现在的我欠缺的基础很是有用，零零碎碎花了大概有3填时间把这篇文字看了个大概，的确当的起">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="弈川">
-<meta name="twitter:description">
+<meta name="twitter:description" content="Title: 《php之道》读后总结 php学习纲要Date: 2014-04-15 16:19:16
+《php之道》阅读地址：http://wulijun.github.io/php-the-right-way/#code_style_guide
+某天在搜藏夹里翻到这个地址，也想不起是什么时候搜藏起来的了。对于现在的我欠缺的基础很是有用，零零碎碎花了大概有3填时间把这篇文字看了个大概，的确当的起">
 
   
   
@@ -109,9 +115,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-phpzhidao" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-phpzhidao" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2014/11/24/phpzhidao/" class="article-date">
   <time datetime="2014-11-24T12:02:43.000Z" itemprop="datePublished">Nov 24 2014</time>
@@ -203,59 +207,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-composerinside" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/18/composerinside/" class="article-date">
-  <time datetime="2014-11-18T03:38:16.000Z" itemprop="datePublished">Nov 18 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/18/composerinside/">composer 的中国镜像</a>
-    </h1>
+    <a href="/2014/11/18/composerinside/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">composer 的中国镜像</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>一直为composer在国外而相当纠结，今天翻laravel文档的时候突然发现已经有人把这个事搞定了，大喜，搬运过来以做收藏</p>
-<p>查看 composer 主目录：通过 composer config -l -g 命令可以列出 composer 的全局配置信息，在这些信息中查找 [home] 配置项就是 composer 的主目录。Linux 用户请执行 sudo composer config -l -g 命令。</p>
-<p>进入 composer 的主目录，打开 config.json 文件（如果没有就自己创建一个），然后增加本镜像服务的配置信息，最终内容如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">{</div><div class="line">    "<span class="attribute">config</span>": <span class="value">{</span></div><div class="line"></div><div class="line">    },</div><div class="line">    "<span class="attribute">repositories</span>": <span class="value">[</span></div><div class="line">        {"<span class="attribute">type</span>": <span class="value"><span class="string">"composer"</span></span>, "<span class="attribute">url</span>": <span class="value"><span class="string">"http://pkg.phpcomposer.com/repo/packagist/"</span></span>},</div><div class="line">        {"<span class="attribute">packagist</span>": <span class="value"><span class="literal">false</span></span>}</div><div class="line">    ]</div><div class="line">}</div></pre></td></tr></table></figure>
-
-
-
-<p>原文 <a href="http://pkg.phpcomposer.com/" target="_blank" rel="external">http://pkg.phpcomposer.com/</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="http://yoursite.com/2014/11/18/composerinside/" data-id="i9mgrsw5ct5fewa2" class="article-share-link">Share</a>
-      
-
-      
-
-      
-    </footer>
-  </div>
   
 </article>
 
-
-  
-  
 </section>
         
       </div>
